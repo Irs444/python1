@@ -1,5 +1,9 @@
-num = int(input("enter the number:"))
-if num <=10:
-    print("number is less then 10")
-else:
-    print("number is greater than 10")
+kahani =''
+while True:
+    line = input(">>>")
+    if not line:
+        break
+    kahani+=line + "\n"
+print("the story is:")
+print(kahani)
+print("⭐⭐⭐⭐")
